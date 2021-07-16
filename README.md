@@ -42,3 +42,10 @@ admin paneline ekleyebilirsiniz.
 - [x] Makale Aktif pasiflik durumu jQuery ile anlık degiştirilebilir.
 - [x] Kategori ekleme,silme ,aktiflik durumları ve silinemez Genel Kategorisi
 - [x] Sayfa ekleme ,düzenleme, silme ve aktiflik durumu
+
+
+### Kurulumdan sonra
+> **/admin/panel 'e giderek panele ulaşabilirsiniz<br>
+ Mail adresi : blog@gmail.com<br>
+ Şifre : 102030<br><br> bu bilgileri kurulumda güncellemek isterseniz<br>
+ AdminSeeder içinden gerekli değişiklikleri yapabilirsiniz**
