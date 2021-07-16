@@ -79,7 +79,7 @@ class Homepage extends Controller
         //Ornek SMTP mail gonderisi .env dosyasindan SMTP Mail ayarlarını yap.
         Mail::send([],[], function ($message) use($request){
                 $message->from('iletisim@laravelblog.com', 'Laravel Blog');
-                $message->to('xeorleon@gmail.com');
+                $message->to('blog@gmail.com');
                 $message->subject($request->name . " iletişimden mesaj gönderdi");
                 $message->setbody('Mesajı Gönderen : ' . $request->name . '<br> Mesajı Gönderen Mail : '
                     .$request->email.'<br/>'.'Mesaj Konusu : '
